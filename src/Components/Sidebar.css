@@ -1,13 +1,13 @@
 .sidebar {
-    width: 250px;
     background-color: #222222;
+    border-right: 2px solid #444444;
+    width: 15%;
     height: 100vh;
-    border-right: 3px solid #444444;
 }
 
 .sidebar-title {
     color: #ccc;
-    font-size: 32px;
+    font-size: 2rem;
     padding: 12px;
 }
 
@@ -21,10 +21,11 @@
     display: flex;
     width: 100%;
     background-color: #292929;
-    height: 32px;
+    height: 3rem;
     align-items: center;
-    padding: 24px 12px;
-    font-size: 18px;
+    padding: 1rem 1rem;
+    font-size: 1.25rem;
+    border-bottom: 1px solid #494949;
 }
 
 .sidebar-item a {

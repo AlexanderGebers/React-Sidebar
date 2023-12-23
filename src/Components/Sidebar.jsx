@@ -1,32 +1,36 @@
+import { Link } from 'react-router-dom';
+
 import './Sidebar.css';
 
 function Sidebar() {
     const data = {
-        title: 'title',
-        footer: 'some footer text',
-        menuItems: ['item 1',
-                    'item 2',
-                    'item 3'
+        title: 'App title',
+        footer: 'Some footer text',
+        menuItems: [{text: 'Startpage', route: '/'},
+                    {text: 'Page #1', route: 'page1'},
+                    {text: 'Page #2', route: 'page2'}
         ]
     };
-
+    
     return (
-        <div className="sidebar">
+        <aside className="sidebar">
             <div className="sidebar-title">{data.title}</div>
 
-            <SidebarItem />
+            {data.menuItems.map((menuItem) => 
+                <SidebarItem itemText = {menuItem.text}
+                             itemRoute = {menuItem.route} />) }
 
             <div className="sidebar-footer">
                 {data.footer}
             </div>
-        </div>
+        </aside>
     );
 }
 
-function SidebarItem() {
+function SidebarItem({itemText, itemRoute}) {
     return (
         <div className='sidebar-item'>
-            <a href="#">ITEM</a>
+            <Link to={ itemRoute }> { itemText } </Link>
         </div>
     );
 }
