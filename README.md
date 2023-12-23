@@ -16,9 +16,6 @@ Steps to create an React project from scratch.
     # install all dependencies
     npm install
 
-    # install React Router
-    npm install react-router-dom
-
     # start VSCode
     code .
 
