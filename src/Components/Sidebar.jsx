@@ -2,11 +2,11 @@ import './Sidebar.css';
 
 function Sidebar() {
     const data = {
-        title: 'Haushaltsbuch',
-        footer: 'Version 1.00',
-        menuItems: ['Startseite',
-                    'Einnahme erfassen',
-                    'Ausgabe erfassen'
+        title: 'title',
+        footer: 'some footer text',
+        menuItems: ['item 1',
+                    'item 2',
+                    'item 3'
         ]
     };
 
