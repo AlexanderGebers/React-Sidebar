@@ -1,4 +1,4 @@
-# simple sidebar while learning React
+# simple sidebar with React
 
 ViteJS is my 1st choice development tool. NodeJS must be installed on your local machine.
 I´m using VSCode.
