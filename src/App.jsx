@@ -1,4 +1,4 @@
-import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import {createBrowserRouter, RouterProvider} from 'react-router-dom';
 
 import RootLayout from './pages/RootLayout';
 import Error404 from './pages/Error404';

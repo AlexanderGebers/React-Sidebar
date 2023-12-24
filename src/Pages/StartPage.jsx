@@ -1,6 +1,6 @@
 function StartPage() {
     return (
-        <main>
+        <main className="content">
             <h1>Startpage</h1>
         </main>
     );

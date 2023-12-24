@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+import {Link} from 'react-router-dom';
 
 import './Sidebar.css';
 
@@ -16,9 +16,11 @@ function Sidebar() {
         <aside className="sidebar">
             <div className="sidebar-title">{data.title}</div>
 
-            {data.menuItems.map((menuItem) => 
-                <SidebarItem itemText = {menuItem.text}
-                             itemRoute = {menuItem.route} />) }
+            <nav>
+                {data.menuItems.map((menuItem) => 
+                    <SidebarItem itemText = {menuItem.text}
+                                itemRoute = {menuItem.route} />) }
+            </nav>
 
             <div className="sidebar-footer">
                 {data.footer}
