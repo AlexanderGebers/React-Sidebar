@@ -1,5 +1,14 @@
 # Simple sidebar with React + React Router
 
+Simple sidebar on the left side, App content next to it.
+Menu items can be added within the ``Sidebar-Component``.
+
+    data object => menuItems
+
+Item text & page route must be provided.
+
+## Setup
+
 ViteJS is my 1st choice development tool. NodeJS must be installed on your local machine.
 I´m using VSCode.
 
@@ -25,7 +34,7 @@ Steps to create an React project from scratch with ViteJS.
 
     ready to code your React App :) 
 
-# Conventions
+## Conventions
 
 Components are in the ``components`` folder.
 
