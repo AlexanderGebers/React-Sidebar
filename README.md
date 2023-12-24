@@ -1,11 +1,7 @@
 # Simple sidebar with React + React Router
 
 Simple sidebar on the left side, App content next to it.
-Menu items can be added within the ``Sidebar-Component``.
-
-    data object => menuItems
-
-Item text & page route must be provided.
+App title, footer text and menu items can be added within the ``Sidebar-Component`` in the ``data`` object.
 
 ## Setup
 
